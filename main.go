@@ -2,7 +2,7 @@ package main
 
 func IndexOfMaxAndMaxElement(numbers []int) (int, int) {
 	Index := 0
-	maxElement := 0
+	maxElement := numbers[0]
 	for index, value := range numbers {
 		if maxElement < value {
 			maxElement = value
